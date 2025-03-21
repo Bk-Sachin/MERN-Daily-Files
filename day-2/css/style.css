@@ -1,0 +1,11 @@
+.head1{
+    color: blue;
+}
+#head2{
+color: red;
+}
+
+.image_space img{
+    display: flex;
+    width: 50%;
+}

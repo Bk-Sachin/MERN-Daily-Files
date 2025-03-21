@@ -1,0 +1,37 @@
+/* .first-heading {
+  color: brown;
+} */
+/* #first-heading {
+  color: brown;
+} */
+h1 {
+  color: brown;
+}
+.hero-image {
+  height: 200px;
+  width: 300px;
+}
+
+.color-change{
+  color: blue;
+}
+
+.color-change span{
+  color: red;
+}
+
+.button{
+  margin: 0;
+  color: blue;
+  border-radius: 2%;
+}
+
+.bold{
+  font-weight: bold;
+  font-size: 50px;
+}
+
+/* list style: none */
+.unorder{
+  list-style: none;
+}
