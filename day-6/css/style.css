@@ -39,13 +39,24 @@ h1 {
 /* custom nav-bar */
 .custom-nav{
   display: flex;
+  justify-content: space-between;
+  background: #814efa;
+  align-items: center;
+  padding:0 1rem 0 1rem;
 }
+
 
 .first-ul ul{
 display: flex;
 list-style: none;
+padding: 15px;
+
 }
 
 .first-ul li{
   margin: 5px;
+}
+
+.btn{
+
 }
