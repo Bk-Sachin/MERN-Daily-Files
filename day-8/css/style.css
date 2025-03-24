@@ -51,25 +51,14 @@ h1 {
 display: flex;
 list-style: none;
 padding: 15px;
-font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  
-  text-decoration: none;
 
 }
 
 .first-ul li{
   margin: 5px;
-  color: #000;
 }
 
-.table_custo{
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
+
 th, td {
   padding: 10px;
   border: 2px solid #000;
@@ -81,7 +70,4 @@ th, td {
 th {
   background-color: #05cdff;
   font-weight: bold;
-}
-i{
-  display: flex;
 }
