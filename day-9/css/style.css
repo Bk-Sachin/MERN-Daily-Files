@@ -15,6 +15,16 @@ h1 {
 .color-change{
   color: blue;
 }
+.logo img{
+  width: 10em;
+  height: auto;;
+  }
+
+.logo_text{
+  font-family: 'poppins';
+  font-size: 40px;
+  align-items: center;
+}
 
 .color-change span{
   color: red;
@@ -70,4 +80,9 @@ th, td {
 th {
   background-color: #05cdff;
   font-weight: bold;
+}
+
+.card{
+  margin: 20px 0px;
+  width: 25%;
 }
