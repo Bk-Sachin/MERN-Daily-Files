@@ -7,30 +7,33 @@
 h1 {
   color: brown;
 }
+
 .hero-image {
   height: 200px;
   width: 300px;
 }
 
-.color-change{
+.color-change {
   color: blue;
 }
-.logo img{
-  width: 10em;
-  height: auto;;
-  }
 
-.logo_text{
+.logo img {
+  width: 10em;
+  height: auto;
+  ;
+}
+
+.logo_text {
   font-family: 'poppins';
   font-size: 40px;
   align-items: center;
 }
 
-.color-change span{
+.color-change span {
   color: red;
 }
 
-.button{
+.button {
   margin: 0;
   color: rgb(0, 0, 0);
   border-radius: 2%;
@@ -43,40 +46,43 @@ h1 {
 }
 
 /* list style: none */
-.unorder{
+.unorder {
   list-style: none;
 }
 
 /* custom nav-bar */
-.custom-nav{
+.custom-nav {
   display: flex;
   justify-content: space-between;
   background: #814efa;
   align-items: center;
-  padding:0 1rem 0 1rem;
+  padding: 0 1rem 0 1rem;
 }
 
 
-.first-ul ul{
-display: flex;
-list-style: none;
-padding: 15px;
+.first-ul ul {
+  display: flex;
+  list-style: none;
+  padding: 15px;
 
 }
-li{
+
+li {
   list-style: none;
 }
-.first-ul li{
+
+.first-ul li {
   margin: 5px;
   list-style: none;
 }
 
-a{
+a {
   list-style: none;
 }
 
 
-th, td {
+th,
+td {
   padding: 10px;
   border: 2px solid #000;
   background-color: rgb(255, 255, 255);
@@ -89,20 +95,22 @@ th {
   font-weight: bold;
 }
 
-.card{
+.card {
   margin: 20px 0px;
   width: 25%;
 }
-.dog1 img{
+
+.dog1 img {
   width: 100%;
 }
-.hero img{ 
+
+.hero img {
   width: 100%;
 }
 
 /* mobile */
 @media only screen and (max-width: 768px) {
-  .logo_text{
+  .logo_text {
     font-family: 'poppins';
     font-size: 10px;
     align-items: center;
@@ -110,10 +118,7 @@ th {
 }
 
 /* tablet*/
-@media only screen and (max-width: 936px) {
-  
-}
+@media only screen and (max-width: 936px) {}
+
 /* med device */
-@media only screen and (max-width: 768px) {
-  
-}
+@media only screen and (max-width: 768px) {}
