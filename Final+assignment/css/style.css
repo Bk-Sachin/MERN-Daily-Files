@@ -55,8 +55,24 @@ h1 {
   align-items: center;
   padding:0 1rem 0 1rem;
 }
-
-
+.hero{
+  margin: 20px 0 0 0;
+}
+.for_boxshadow{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.for_boxshadow:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition-duration: 1s;
+}
+.forshadow img{
+  border-radius: 75px 50px 10px 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.forshadow img:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition-duration: 1s;
+}
 .first-ul ul{
 display: flex;
 list-style: none;
@@ -92,6 +108,7 @@ th {
 .card{
   margin: 20px 0px;
   width: 25%;
+  
 }
 .dog1 img{
   width: 100%;
@@ -164,6 +181,10 @@ th {
   transition: transform 0.5s ease-in-out;
   cursor: pointer;
 }
+.for-fl{
+  display: flex;
+  gap: 10px;
+}
 .just-for-flex{
   display: flex;
 }
@@ -175,14 +196,37 @@ border-radius: 5px;
 border:none;
 display: flex;
 }
+.custom-button:hover{
+  background-color: rgba(107, 255, 8, 0.575);
+  color: #000;
+  transition-duration: 0.5s;
+}
 /* Copyright section */
 .copyright {
   color: #888888;
   font-size: 12px;
   margin: 0;
 }
-
-
+.pbox{
+  display: flex;
+  justify-content: space-between;
+}
+.box1{
+  width: 200px;
+  height: 200px;
+  background-color: #000;
+  color: white;
+}
+.box2{
+  width: 200px;
+  height: 200px;
+  background-color: #00ff2a;
+}
+.box3{
+  width: 200px;
+  height: 200px;
+  background-color: #008cff;
+}
 /* mobile */
 @media only screen and (max-width: 768px) {
   .logo_text{
@@ -193,6 +237,10 @@ display: flex;
 
   .footer-dark{
     padding-bottom: 5px;
+  }
+  .first-ul{
+    display: none;
+
   }
 }
 
