@@ -1,0 +1,158 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    max-height: 70px;
+}
+
+.contact-info {
+    color: #6c4a15;
+    font-size: 14px;
+}
+
+.contact-info i {
+    margin-right: 8px;
+    color: #6c4a15;
+}
+
+.get-quote-btn {
+    background-color: #5b3406;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.get-quote-btn:hover {
+    background-color: #7a4a12;
+    color: #fff;
+}
+
+.navigation {
+    background-color: #222;
+    padding: 15px 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    color: #fff;
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+    border-right: 1px solid #444;
+    line-height: 20px;
+}
+
+.nav-link:last-child {
+    border-right: none;
+}
+
+.nav-link:hover {
+    color: #ccc;
+}
+
+.splide {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Lower z-index for the carousel */
+}
+
+.splide__slide {
+    position: relative;
+}
+
+.splide__slide img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+}
+
+.slide-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    pointer-events: none; /* This makes the wrapper non-blocking for clicks */
+    z-index: 2; /* Higher than carousel but lower than controls */
+}
+
+.hero-content {
+    position: relative;
+    padding: 0 20px;
+    color: #fff;
+    pointer-events: auto; /* Re-enable pointer events for the content itself */
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    max-width: 600px;
+}
+
+/* Splide Customization */
+.splide__pagination {
+    bottom: 20px;
+    z-index: 5; /* Ensure pagination is clickable */
+}
+
+.splide__arrow {
+    background: rgba(255, 255, 255, 0.3);
+    opacity: 0.7;
+    width: 52px;
+    height: 52px;
+    z-index: 10; /* Ensure arrows are above all other elements */
+}
+
+.splide__arrow:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.splide__arrow svg {
+    width: 1.5em;
+    height: 1.5em;
+    fill: #fff;
+}
+
+/* Ensure controls are clickable */
+.splide__arrows, .splide__pagination {
+    pointer-events: auto !important;
+}
